@@ -17,10 +17,16 @@
                 <img src="img/dewi.png" alt="">
             </div>
             <!-- menu items -->
-            <div class="hidden md:flex space-x-8 ml-auto">
+            <div class="hidden md:flex space-x-8 ml-auto" id="menu">
                 <a href="#" class="text-xl hover:text-red-300">FASHION</a>
                 <a href="#" class="text-xl hover:text-red-300">BEAUTY & HEALTH</a>
                 <a href="#" class="text-xl hover:text-red-300">ART & CULTURE</a>
+            </div>
+            <!-- burger icon -->
+            <div class="ml-auto cursor-pointer md:hidden" id="burger">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
             </div>
         </div>
     </nav>
@@ -64,7 +70,7 @@
                     <img src="img/jfw23art.jpg" alt="" class="max-h-64 h-auto w-full object-cover mb-3">
                     <p class="font-cgothic text-xl text-gray-500">ART & CULTURE</p>
                     <h1 class="font-bold text-2xl font-pts hover:text-red-900">Augmented Reality at Artspace Jakarta</h1>
-                    <p class="font-cgothic">by Najla Khairunnisa</p>
+                    <p class="font-cgothic">by Dian Andara</p>
                 </div>
             </div>
             <!-- <div class="flex flex-col items-start mx-auto mb-6 space-x-4 md:flex-row">
@@ -94,7 +100,7 @@
                     <img src="img/jfw23ramadhan.png" alt="" class="max-h-64 h-auto w-full object-cover object-top mb-3">
                     <p class="font-cgothic text-xl text-gray-500">FASHION</p>
                     <h1 class="font-bold text-2xl font-pts hover:text-red-900">JFW Ramadhan Fashion Festival</h1>
-                    <p class="font-cgothic">by Michael Jackson</p>
+                    <p class="font-cgothic">by Olivia Rodrigo</p>
                 </div>
                 <div>
                     <img src="img/jfw23male.jpg" alt="" class="max-h-64 h-auto w-full object-cover mb-3">
@@ -103,10 +109,10 @@
                     <p class="font-cgothic">by John Lennon</p>
                 </div>
                 <div>
-                    <img src="img/jfw23art.jpg" alt="" class="max-h-64 h-auto w-full object-cover mb-3">
+                    <img src="img/jfw23earth.jpg" alt="" class="max-h-64 h-auto w-full object-cover mb-3">
                     <p class="font-cgothic text-xl text-gray-500">ART & CULTURE</p>
-                    <h1 class="font-bold text-2xl font-pts hover:text-red-900">Augmented Reality at Artspace Jakarta</h1>
-                    <p class="font-cgothic">by April May June</p>
+                    <h1 class="font-bold text-2xl font-pts hover:text-red-900">5 Ways to Celebrate Earth Day</h1>
+                    <p class="font-cgothic">by People</p>
                 </div>
             </div>
         <!-- <div class="flex flex-col items-start mx-auto mb-6 space-x-4 md:flex-row">
@@ -135,9 +141,10 @@
     </section>
     <section id="copyright">
         <div class="container flex flex-col items-center mx-auto m-6">
-            <p class="font-cgothic text-gray-900">&copy; 2022 GCM Group</p>
+            <p class="font-cgothic text-gray-900">&copy; 2022</p>
         </div>
 
     </section>
+    <script src="menu.js"></script>
 </body>
 </html>
